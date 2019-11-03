@@ -17,3 +17,4 @@ void key_gen(string keys[],string input_key);
 string shift_left(string k, int shifts);
 void round(string &left,string &right,string key);
 string des_encryprion(string plain,string key);
+string des_decryprion(string plain,string key);
